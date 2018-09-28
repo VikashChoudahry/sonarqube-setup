@@ -1,0 +1,7 @@
+{
+    "validPayload": {},
+    "successResponse": {
+        "empId": "EMP-123",
+        "empName": "John"
+    }
+}

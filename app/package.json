@@ -1,0 +1,29 @@
+{
+  "name": "sonarqube",
+  "version": "1.0.0",
+  "description": "Sonarqube setup with node app",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 30000 ./test/**/*.js --exit",
+    "coverage": "./node_modules/.bin/nyc -r cobertura -r text-summary -r html npm test",
+    "start": "nodemon server.js",
+    "build": "webpack -p",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "author": "Vikash",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "dotenv": "5.0.1",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.11.0",
+    "mocha": "5.1.1",
+    "nock": "9.2.5",
+    "nyc": "11.7.1",
+    "supertest": "3.0.0"
+  }
+}
