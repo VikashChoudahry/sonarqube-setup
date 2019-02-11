@@ -3,7 +3,7 @@
 The only prerequisite for running SonarQube is to have Java (Oracle JRE 8 or OpenJDK 8) installed on your machine .  `https://docs.sonarqube.org/display/SONAR/Requirements`
 
 
-## Download below software(s)
+## Download below software(s):
 1. LTS version of Sonarqube. 
    `https://www.sonarqube.org/downloads/`
 2. SonarQube-scanner based on your platform. 
