@@ -4,5 +4,7 @@ const express = require('express'),
 
 router.use('/v1', v1Router);
 console.log("hello")
+console.log("hello")
+console.log("hello")
 
 module.exports = router;
