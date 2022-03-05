@@ -3,5 +3,8 @@ const express = require('express'),
   v1Router = require('./v1');
 
 router.use('/v1', v1Router);
+console.log("hello")
+console.log("hello")
+console.log("hello")
 
 module.exports = router;
